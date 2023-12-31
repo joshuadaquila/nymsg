@@ -2,7 +2,6 @@
 body{
   background-image: url(bg.jpg);
   background-size: cover;
-  padding: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
