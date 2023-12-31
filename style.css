@@ -5,7 +5,6 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   flex-direction: column;
 }
 #maincon{
@@ -28,7 +27,7 @@ body{
   }
 }
 #text{
-  font-size: x-large;
+  font-size: large;
   font-family: 'Pacifico', cursive;
   color: rgb(210, 171, 0);
   text-shadow: 0 0 10px rgba(169, 104, 0, 0.941),
