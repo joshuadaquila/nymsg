@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>For You!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Pacifico&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="maincon">
+      <center><h1>SURPRISE HAHAHAHAHAH!!!</h1></center>
+      
+      <p id="text">
+        Hey Beb,<br>
+        <br>
+        Before this year ends, I would like to thank you for being the best part of 2023.
+        <br>
+        <br>
+        This year, I faced and overcame many struggles and challenges. Those really tested me to see how far I could go. (Lato mo run ra kung ano ra HAHAHA.) I was like a stray bird flying in the vast sky without direction. My life was dark and hopeless, until such time as our paths crossed.
+        You made my life more colorful and more meaningful. Thank you for always being there for me. Thank you for your presence. Thank you for making me smile and happy. In all those moments, I will engrave those in my heart to remember and cherish.
+        <br>
+        <br>
+        As the new year’s approaches, may our admiration and infatuation turn into deep and meaningful love for each other.
+        You will always be the best part of my year, as long as you are there! HAHA Happy New Year!
+        <br>
+        <br>
+        Greetings from,<br>Bebe Mo Joshua</p>
+    </div>
+    <div>
+      <button id="btn" onclick="showCon()">Click Me!</button>
+    </div>
+      
+    <script>
+      const mainCon = document.getElementById("maincon");
+      const btn = document.getElementById("btn");
+
+      function showCon(){
+        mainCon.style.opacity = 1;
+        mainCon.style.animation = "fadeInOut 3s ease-in-out infinite";
+
+        btn.style.opacity = 0;
+      }
+
+    </script>
+  </body>
+</html>
